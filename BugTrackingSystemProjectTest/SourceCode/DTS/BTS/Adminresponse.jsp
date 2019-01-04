@@ -21,18 +21,8 @@ PreparedStatement pstmt;
 ResultSet rs=null;
 
 String f1,message,reassignto,newstatus,tested;
-
-try
-{	
-	      Class.forName("com.mysql.jdbc.Driver");
-       	  con=DriverManager.getConnection("jdbc:mysql://localhost:3306/bts", "root", "igen");
-       	  pstmt=con.prepareStatement("select * from adminresponse");
-    	   rs=pstmt.executeQuery();
-}
-catch(Exception e)
-{
-	e.printStackTrace();
-}
+ //add comment
+ //deleted some lines
 if(rs!=null)
 {
 %>
