@@ -86,11 +86,7 @@ if(request.getParameter("msg")!=null)
   		<tr><td align="right"><font>Project Name</font></td><td> 
 <%
 
-		ServletContext sc=getServletContext();
-		String driver=sc.getInitParameter("drivername");
-		String url=sc.getInitParameter("url");
-		String uname=sc.getInitParameter("username");
-		String pwd=sc.getInitParameter("password");
+	 
 try{
 			Class.forName(driver);
 			Connection  con=DriverManager.getConnection(url,uname,pwd);

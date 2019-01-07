@@ -12,13 +12,11 @@
 <a href="Employee.jsp"><img border=0 src="Images2/CalLeft.gif"></a>
 <body class="SC">
 <form action="Login.html">
-<h3 align=center>Adminresponse</h3>
+<h3 align=center>Modif feature </h3>
 <%
 /*Declaration of variables*/
 
-Connection con;
-PreparedStatement pstmt;
-ResultSet rs=null;
+
 
 String f1,message,reassignto,newstatus,tested;
  //add comment
